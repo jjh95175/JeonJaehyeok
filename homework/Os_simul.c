@@ -10,7 +10,7 @@
 #include <errno.h>
 
 #define NPROC 10
-#define QUANTUM_INIT 3            // 각 프로세스 기본 타임퀀텀
+#define QUANTUM_INIT 1            // 각 프로세스 기본 타임퀀텀
 #define TICK_USEC 100000          // 타이머 틱: 100ms
 #define IO_WAIT_MIN 1
 #define IO_WAIT_MAX 5
